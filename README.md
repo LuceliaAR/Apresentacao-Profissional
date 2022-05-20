@@ -1,2 +1,2 @@
-# Apresentacao-Profissional
-## Exercício proposto no aquecimento do programa Hiring Coders/  Vtex/ Gama Academy
+# Portfólio Profissional
+## Criação portfólio para treinar HTML, CSS
