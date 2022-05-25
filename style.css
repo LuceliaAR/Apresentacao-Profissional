@@ -201,7 +201,7 @@ header {
 }
 
 .nav-open .nav-toggle {
-    position: fixed;
+    position: fixed
 }
 
 .nav-open .hamburger {
@@ -294,8 +294,6 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/services-bg.jpg);
-    background-size: cover;
     color: var(--clr-light);
     text-align: center;
     padding: 50px 50px
