@@ -125,11 +125,16 @@ h3 { font-size: var(--fs-h3) }
 
 .section__subtitle--intro,
 .section__subtitle--about {
-    background: var(--clr-accent);
+    background: linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(187,89,89,1) 100%);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
 }
+
+.section__subtitle{
+    color: #edeace;
+}
+
 
 .section__subtitle--work {
     color: var(--clr-accent);
