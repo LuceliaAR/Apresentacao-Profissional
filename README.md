@@ -1,4 +1,4 @@
 # Portfólio Profissional
 ## Criação portfólio para treinar HTML, CSS e JavaScript
 
-![Imagem portfolio](file:///C:/Users/Luc%C3%A9lia/Desktop/Hiring%20Coders/Apresentacao%20Profissional/imagens/projetoPortfolio.MHT)
+![projetoPortfolio](https://user-images.githubusercontent.com/94813579/170348372-2086ea2a-49d4-47a4-953f-0efef82b6681.JPG)
