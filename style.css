@@ -10,7 +10,6 @@ font-family: 'Source Code Pro', monospace;
     box-sizing: border-box;
 }
 
-
 :root {
     --ff-primary: 'Josefin Sans', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
@@ -24,7 +23,7 @@ font-family: 'Source Code Pro', monospace;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
-    --fs-h3: 1.25rem;
+    --fs-h3: 1.50rem;
     --fs-body: 1rem;
     
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
@@ -41,6 +40,7 @@ font-family: 'Source Code Pro', monospace;
 }
 
 /* Estilo geral */
+
 
 html {
     scroll-behavior: smooth;
@@ -71,12 +71,13 @@ strong { font-weight: var(--fw-bold) }
     outline-offset: 3px;
 }
 
-/* Botão */
+/* botãoo */
 
 .btn {
     display: inline-block;
-    padding: .5em 2.5em;
     background: var(--clr-accent);
+    padding: 1em 2em;
+    margin-top: 2.5%;
     color: var(--clr-dark);
     text-decoration: none;
     cursor: pointer;
@@ -91,7 +92,7 @@ strong { font-weight: var(--fw-bold) }
     transform: scale(1.1);
 }
 
-/* tamanhos fonte */
+/* Fontes */
 
 h1,
 h2,
@@ -145,7 +146,7 @@ header {
 }
 
 .logo {
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .nav {
@@ -185,9 +186,9 @@ header {
 }
 
 .nav-toggle {
-    padding: .5em;
+    padding: 1.2em;
     background: transparent;
-    border: none;
+    border: 0;
     cursor: pointer;
     position: absolute;
     right: 1em;
@@ -241,7 +242,8 @@ header {
 .hamburger::before { top: 6px; }
 .hamburger::after { bottom: 6px; }
 
-/*  Introdução  */
+
+/*  Seção Introdução  */
 
 .intro {
     position: relative;
@@ -260,6 +262,7 @@ header {
         display: grid;
         width: min-content;
         margin: 0 auto;
+        padding-top: 2%;
         grid-column-gap: 1em;
         grid-template-areas: 
             "img title"
@@ -287,14 +290,16 @@ header {
 
 
 
-/*  Meus serviços  */
+/*  Seção meus serviços  */
 
 .my-services {
     background-color: var(--clr-dark);
     background-image: url(../img/services-bg.jpg);
     background-size: cover;
-        color: var(--clr-light);
+    color: var(--clr-light);
     text-align: center;
+    padding: 50px 50px
+   
 }
 
 .section__title--services {
@@ -312,10 +317,6 @@ header {
     opacity: 0.25;
 }
 
-.services {
-    margin-bottom: 4em;
-}
-
 .service {
     max-width: 500px;
     margin: 0 auto;
@@ -323,21 +324,17 @@ header {
 
 @media (min-width: 800px) {
     .services {
-        display: flex;
+        display: block;
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
     }
-    
-    .service + .service {
-        margin-left: 2em;
-    }
 }
-
 
 .about-me {
     max-width: 1000px;
     margin: 0 auto;
+    padding: 50px 50px;
 }
 
 .about-me__img {
@@ -381,7 +378,8 @@ header {
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    text-align: center;    
+    text-align: center;
+    padding: 50px 50px;    
 }
 
 .portfolio {
